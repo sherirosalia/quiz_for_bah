@@ -51,9 +51,23 @@
                 transform: scaleX(-1);
                 display:grid;
             }    
-            
+            #magnifying-glass{
+                width: 7em;
+                height: auto;
+                margin-right: 1em;
+                margin-left: -1em;
+                transform: rotate(5deg);
+                /* -webkit-transform: scaleX(-1);
+                transform: scaleX(-1); */
+                display:grid;
+
+            }
     
-            #quiz-explanation{
+            #quiz-explanation1{
+                display: grid, inline-block;
+            }
+
+            #quiz-explanation2{
                 display: grid, inline-block;
             }
     

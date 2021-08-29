@@ -9,12 +9,15 @@
     function hideShow(scroll) {
       if (scroll >= 236) {
         $('#logo-on-scroll').show();
-        $('#quiz-explanation1').hide();
         $('#quiz-explanation2').show();
+        $('#quiz-explanation1').hide();
+        $('#magnifying-glass').hide();
       } else {
         $('#logo-on-scroll').hide();
         $('#quiz-explanation2').hide();
         $('#quiz-explanation1').show();
+        $('#magnifying-glass').show();
+
       }
     }
     hideShow($(this).scrollTop());
@@ -75,6 +78,8 @@ function calcscore(){
       score+=parseInt(data);
   });
   // $("input[name=sum]").val(score)
+
+
   $('#results').text(score);
 }
 $().ready(function(){
@@ -82,6 +87,28 @@ $().ready(function(){
       calcscore()
   });
 });
+
+
+
+function calcscoreOld(){
+  var score = 0;
+  $(".calc:checked").each(function(){
+    data= $(this).data('price');
+      // score+=parseInt($(this).val(),10);
+      score+=parseInt(data);
+  });
+  // $("input[name=sum]").val(score)
+  $('#results').text(score);
+}
+$().ready(function(){
+  $(".calc").change(function(){
+      calcscore()
+  });
+});
+
+
+
+
 
 // $(document).ready(function() {
 //   for (var counter = 0; counter < 11; counter++){
