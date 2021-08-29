@@ -50,8 +50,7 @@
                 -webkit-transform: scaleX(-1);
                 transform: scaleX(-1);
                 display:grid;
-            }
-    
+            }    
             
     
             #quiz-explanation{
@@ -147,4 +146,6 @@
                 left:0;
                 width: 100%; 
             }
+
+
     
