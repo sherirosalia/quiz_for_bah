@@ -1,0 +1,150 @@
+
+        /* note:  header font is Share Tech and the Body Font is Open Sans Semi Bold */
+
+        /* note:  colors:
+            light gray d6d6d6
+            orange ff8a3d
+            off white f1f1f1
+            logo blue 15314e
+            bonus blueberry 08366d
+            charcoal 222222 */
+        
+            html,body{
+                margin: 0;
+                padding: 0;
+                background-color: rgb(223, 223, 227);
+                color: #f1f1f1; 
+                font-family: 'Open Sans', sans-serif;           
+            }
+    
+            .heading {
+                background-color: rgb(40, 40, 170);
+                display: grid;
+                padding: 2em;
+                grid-template-columns: 1fr 9fr;
+                z-index: 1;
+                font-family: 'Share Tech', sans-serif;
+            }
+    
+    
+            #logo{
+                width: 7em;
+                height: auto;
+                margin-right: 1em;
+            }
+    
+            #quiz-title {
+                background-color: rgb(44, 44, 97);
+                display: grid;
+                padding: 2em;            
+                grid-template-columns: 8fr 2fr;
+                text-align: center;
+                color: whitesmoke;
+                z-index: 3;
+            }
+    
+            #logo-on-scroll{
+                width: 7em;
+                height: auto;
+                margin-left: 1em;
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+                display:grid;
+            }
+    
+            
+    
+            #quiz-explanation{
+                display: grid, inline-block;
+            }
+    
+    
+            #title-heading {
+                padding:0px;
+                margin: 0px;
+            }
+    
+            #quiz-title>p{
+                display: block;            
+            }
+    
+            .wrapper {
+
+                margin: -1em 3em 0; 
+                z-index: 1;                    
+
+            }
+    
+
+    
+            .quiz-form {
+                background-color: rgb(40, 40, 170);
+                position: relative;
+                display: grid;
+                grid-template-columns: 100%;
+                padding: 1em 3em 1em;
+                margin-top: 1.5em;
+                color: whitesmoke;           
+            }
+    
+            .quiz-form:hover {
+                filter: brightness(85%);
+                background-color:rgb(44, 44, 97);    
+            }
+    
+            .sticky {
+                /* background-color: #ffffff; */
+                position: -webkit-sticky;
+                position: sticky;
+                /* top: 0; */
+                /* counter the 1px of hidden header content, an additional 1px of space  */
+                top: -1px;  /* ➜ the trick */
+    
+                padding: 1em;
+                padding-top: calc(1em + 1px);    /* ➜ compensate for the trick */
+            }
+    
+            /* styles for when the header is in sticky mode */
+            /* #quiz-title.isSticky{            
+                color:rgb(199, 108, 23);
+            } */
+    
+            #quiz-title.isSticky{            
+                /* color:rgb(199, 108, 23); */
+                background-color: rgb(40, 40, 170);
+                color: #d6d6d6;
+            }
+    
+    
+            .footer {
+                background-color: rgb(40, 40, 170);
+                display: grid;
+                padding: 2em;
+                grid-template-columns: 1fr 5fr 4fr;
+                margin-top: 2em;
+                font-family: 'Share Tech', sans-serif;
+                /* text-align: center; */
+                /* color: whitesmoke; */
+            }
+    
+            ul{
+                list-style: none;
+            }
+    
+            #result {
+                background-color: rgb(44, 44, 97);
+                display: grid;
+                padding: 2em;
+                margin: 1em 0em 0em;
+                grid-template-columns: 100%;
+                text-align: center;
+                color: whitesmoke;
+            }
+    
+            .fixed {
+                position: fixed;
+                top:0; 
+                left:0;
+                width: 100%; 
+            }
+    
