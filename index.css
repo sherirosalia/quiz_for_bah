@@ -154,7 +154,7 @@
                 color: whitesmoke;
             }
 
-            #readiness{
+            #readiness {
                 background-color: #ff8a3d;
                 display: grid;
                 padding: .5em;
@@ -162,6 +162,11 @@
                 grid-template-columns: 100%;
                 text-align: center;
                 color: #222222;
+            }
+
+            #readiness-text {
+                font-weight: bold;
+                font-size: large;
             }
     
             .fixed {

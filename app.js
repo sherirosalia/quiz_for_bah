@@ -94,30 +94,30 @@ function calcscore(){
 
     if(score === 18){
       // alert('you are ready Freddy!')
-      $('#readiness-text').text("You are ready Freddy!");
+      $('#readiness-text').text('\"You are ready Freddy!\"');
     }
     else if(score > 15){
 
-      $('#readiness-text').text("Check out article on selling your data");
+      $('#readiness-text').text('\"Check out article on selling your data\"');
       // alert('check out article on selling your data')
 
     }
     else if(score > 12){
-      $('#readiness-text').text('You\'re poised to make a lot of money honey!');
+      $('#readiness-text').text('\"You\'re poised to make a lot of money honey!\"');
 
       // alert('you\'re poised to make a lot of money')
 
     }
 
     else if(score > 9){
-      $('#readiness-text').text("\n You still have time to sharpen your pencil");
+      $('#readiness-text').text('\"You still have time to sharpen your pencil\"');
 
       // alert('time to sharpen your pencil')
 
     }
 
     else {
-      $('#readiness-text').text("We are here for you");
+      $('#readiness-text').text('\"We are here for you!\"');
       // alert('we are here for you')
     }
 
