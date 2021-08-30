@@ -43,6 +43,7 @@ observer.observe(stickyElm)
 
 
 $(document).ready(function() {
+  $('#readiness').hide(); 
 
   let counter = 0
   $(document).on('click','#logo-on-scroll',function(){
@@ -72,21 +73,62 @@ $(document).ready(function() {
 
 function calcscore(){
   var score = 0;
+  var count = 0;
   $(".calc:checked").each(function(){
     data= $(this).data('price');
-      // score+=parseInt($(this).val(),10);
+
       score+=parseInt(data);
+      count = count + 1
+      
+      return score
+      
   });
-  // $("input[name=sum]").val(score)
+
+  $('#results').text(score); 
+
+  
+
+  if(count ===6){
+    console.log(score)
+    $('#readiness').show();
+
+    if(score === 18){
+      // alert('you are ready Freddy!')
+      $('#readiness-text').text("You are ready Freddy!");
+    }
+    else if(score > 15){
+
+      $('#readiness-text').text("Check out article on selling your data");
+      // alert('check out article on selling your data')
+
+    }
+    else if(score > 12){
+      $('#readiness-text').text('You\'re poised to make a lot of money honey!');
+
+      // alert('you\'re poised to make a lot of money')
+
+    }
+
+    else if(score > 9){
+      $('#readiness-text').text("\n You still have time to sharpen your pencil");
+
+      // alert('time to sharpen your pencil')
+
+    }
+
+    else {
+      $('#readiness-text').text("We are here for you");
+      // alert('we are here for you')
+    }
+
+  }
 
 
-  $('#results').text(score);
-}
-$().ready(function(){
-  $(".calc").change(function(){
-      calcscore()
-  });
-});
+  }
+  
+
+
+
 
 
 

@@ -52,7 +52,7 @@
                 display:grid;
             }    
             #magnifying-glass{
-                width: 7em;
+                width: 5em;
                 height: auto;
                 margin-right: 1em;
                 margin-left: -1em;
@@ -147,11 +147,21 @@
             #result {
                 background-color: rgb(44, 44, 97);
                 display: grid;
-                padding: 2em;
+                padding: .5em;
                 margin: 1em 0em 0em;
                 grid-template-columns: 100%;
                 text-align: center;
                 color: whitesmoke;
+            }
+
+            #readiness{
+                background-color: #ff8a3d;
+                display: grid;
+                padding: .5em;
+                margin: 1em 0em 0em;
+                grid-template-columns: 100%;
+                text-align: center;
+                color: #222222;
             }
     
             .fixed {
