@@ -8,13 +8,21 @@
             logo blue 15314e
             bonus blueberry 08366d
             charcoal 222222 */
-        
-            html,body{
+            html, 
+            body {
+                width: 100%;
+                height: 100%;
                 margin: 0;
                 padding: 0;
+                overflow-x: hidden; 
+            }
+                    
+            html,body{
+
                 background-color: rgb(223, 223, 227);
                 color: #f1f1f1; 
-                font-family: 'Open Sans', sans-serif;           
+                font-family: 'Open Sans', sans-serif; 
+       
             }
     
             .heading {
@@ -83,7 +91,7 @@
     
             .wrapper {
 
-                margin: -1em 3em 0; 
+                /* margin: -1em 3em 0;  */
                 z-index: 1;                    
 
             }
@@ -147,8 +155,8 @@
             #result {
                 background-color: rgb(44, 44, 97);
                 display: grid;
-                padding: .5em;
-                margin: 1em 0em 0em;
+                /* padding: .5em;
+                margin: 1em 0em 0em; */
                 grid-template-columns: 100%;
                 text-align: center;
                 color: whitesmoke;
