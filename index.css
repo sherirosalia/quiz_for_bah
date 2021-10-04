@@ -183,6 +183,32 @@
                 left:0;
                 width: 100%; 
             }
+            @media screen and (max-width: 425px) {
+                html, 
+                body {
+                    font-size: xx-small;
+                }
+                .text {
+                  font-size: xx-small;
+                }
+
+                .heading {
+                    height: 50%;
+                }
+                #quiz-title-heading {
+                    font-size: xx-small;
+                }
+                #quiz-title{
+                    font-size: xx-small;
+                    
+                    padding: 0;
+                    margin: 0;
+                }
+
+
+
+              }
+            
 
 
     
