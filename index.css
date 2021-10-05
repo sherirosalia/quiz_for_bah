@@ -163,7 +163,8 @@
             }
 
             #readiness {
-                background-color: #ff8a3d;
+                background-color: #be2596
+                ;
                 display: grid;
                 padding: .5em;
                 margin: 1em 0em 0em;
@@ -183,6 +184,10 @@
                 left:0;
                 width: 100%; 
             }
+            a{
+                text-decoration: none;
+                color: whitesmoke;
+            }
             @media screen and (max-width: 425px) {
                 html, 
                 body {
@@ -199,13 +204,18 @@
                     font-size: xx-small;
                 }
                 #quiz-title{
-                    font-size: xx-small;
+                    color: whitesmoke;
                     
                     padding: 0;
                     margin: 0;
                 }
 
+                #readiness{
+                    color: whitesmoke;
+                    font-size: small;
+                    height: 6rem;
 
+                }
 
               }
             
