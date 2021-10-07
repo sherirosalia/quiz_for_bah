@@ -94,32 +94,32 @@ function calcscore(){
 
     if(score === 18){
       // alert('you are ready Freddy!')
-      $('#readiness-text').text('\" Congratulations, you are data ready!  Here are some ideas of what you might want to do next to accelerate the monetization of data momentum. \"');
+      $('#readiness-text').text('\"You are ready Freddy!\"');
     }
     else if(score > 15){
 
-      $('#readiness-text').text('\"Well done!  The data experience you have gained so far has powered your success and given you a knowledge base with which to build.  Here is where you might want to go next. Check out this link about how to use bots to save time. \"');
+      $('#readiness-text').text('\"Check out article on selling your data\"');
       // alert('check out article on selling your data')
 
     }
-    else if(score > 10){
-      $('#readiness-text').text('\"Congratulations! You are thinking about the information your business has collected and how to organize it. You have the chance now to architect something that will serve you for many years to come.  Let\’s chat to see how we can support you in your data journey!\"');
+    else if(score > 12){
+      $('#readiness-text').text('\"You\'re poised to make a lot of money honey!\"');
 
       // alert('you\'re poised to make a lot of money')
 
     }
 
-    // else if(score > 9){
-    //   $('#readiness-text').text('\"You still have time to sharpen your pencil\"');
+    else if(score > 9){
+      $('#readiness-text').text('\"You still have time to sharpen your pencil\"');
 
-    //   // alert('time to sharpen your pencil')
+      // alert('time to sharpen your pencil')
 
-    // }
+    }
 
-    // else {
-    //   $('#readiness-text').text('\"We are here for you!\"');
-    //   // alert('we are here for you')
-    // }
+    else {
+      $('#readiness-text').text('\"We are here for you!\"');
+      // alert('we are here for you')
+    }
 
   }
 
@@ -256,6 +256,5 @@ $().ready(function(){
 
 
   
-
 
 

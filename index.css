@@ -45,7 +45,7 @@
                 background-color: rgb(44, 44, 97);
                 display: grid;
                 padding: 2em;            
-                grid-template-columns: 8fr 2fr;
+                grid-template-columns: 10fr;
                 text-align: center;
                 color: whitesmoke;
                 z-index: 3;
@@ -163,19 +163,25 @@
             }
 
             #readiness {
-                background-color: #be2596
+                background-color: #701569
                 ;
+                padding-top: 2rem;
+                color: whitesmoke;
+                height: 12rem;
                 display: grid;
                 padding: .5em;
                 margin: 1em 0em 0em;
                 grid-template-columns: 100%;
                 text-align: center;
-                color: #222222;
+                font-weight: bold;
+                font-size: large;
+                
             }
 
             #readiness-text {
                 font-weight: bold;
                 font-size: large;
+
             }
     
             .fixed {
@@ -188,6 +194,39 @@
                 text-decoration: none;
                 color: whitesmoke;
             }
+
+            @media screen and (max-width: 800px) {
+                html, 
+                body {
+                    font-size: small;
+                }
+                .text {
+                  font-size: small;
+                }
+
+                .heading {
+                    height: 50%;
+                }
+                #quiz-title-heading {
+                    font-size: small;
+                }
+                #quiz-title{
+                    color: whitesmoke;
+                    
+                    padding: 0;
+                    margin-top: 8rem;
+                }
+
+                #readiness{
+                    color: whitesmoke;
+                    font-size: small;
+                    height: 7rem;
+
+                }
+
+              }
+
+
             @media screen and (max-width: 425px) {
                 html, 
                 body {
@@ -207,7 +246,7 @@
                     color: whitesmoke;
                     
                     padding: 0;
-                    margin: 0;
+                    margin-top: 5rem;
                 }
 
                 #readiness{
