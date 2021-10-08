@@ -92,18 +92,18 @@ function calcscore(){
     console.log(score)
     $('#readiness').show();
 
-    if(score === 18){
+    if(score > 15){
       // alert('you are ready Freddy!')
       $('#readiness-text').text('\" Congratulations, you are data ready!  Here are some ideas of what you might want to do next to accelerate the monetization of data momentum. \"');
     }
-    else if(score > 15){
+    else if(score > 11){
 
-      $('#readiness-text').text('\"Well done!  The data experience you have gained so far has powered your success and given you a knowledge base with which to build.  Here is where you might want to go next. Check out this link about how to use bots to save time. \"');
+      $('#readiness-text').text('\"Well done!  The data experience you have gained so far has powered your success and given you a knowledge base with which to build.  Here is where you might want to go next. \"');
       // alert('check out article on selling your data')
 
     }
-    else if(score > 10){
-      $('#readiness-text').text('\"Congratulations! You are thinking about the information your business has collected and how to organize it. You have the chance now to architect something that will serve you for many years to come.  Let\’s chat to see how we can support you in your data journey!\"');
+    else if(score <=10){
+      $('#readiness-text').text('\"Congratulations! You are thinking about the information your business has collected and how to organize it. You have the chance now to architect something that will serve you for many years to come. Lets chat to see how we can support you in your data journey. \"');
 
       // alert('you\'re poised to make a lot of money')
 

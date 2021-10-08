@@ -165,7 +165,7 @@
             #readiness {
                 background-color: #701569
                 ;
-                padding-top: 2rem;
+                /* padding-top: 2rem; */
                 color: whitesmoke;
                 height: 12rem;
                 display: grid;
@@ -173,14 +173,14 @@
                 margin: 1em 0em 0em;
                 grid-template-columns: 100%;
                 text-align: center;
-                font-weight: bold;
-                font-size: large;
+                font-weight: normal;
+                font-size: medium;
                 
             }
 
             #readiness-text {
-                font-weight: bold;
-                font-size: large;
+                font-weight: normal;
+                font-size: medium;
 
             }
     
@@ -193,41 +193,74 @@
             a{
                 text-decoration: none;
                 color: whitesmoke;
+
+
             }
 
-            @media screen and (max-width: 800px) {
-                html, 
-                body {
-                    font-size: small;
-                }
-                .text {
-                  font-size: small;
-                }
 
-                .heading {
-                    height: 50%;
-                }
-                #quiz-title-heading {
-                    font-size: small;
-                }
+
+            @media screen and (max-width: 960px) {
+
                 #quiz-title{
                     color: whitesmoke;
                     
                     padding: 0;
                     margin-top: 8rem;
                 }
+            }
+            @media screen and (max-width: 800px) {
+
+                #quiz-title{
+                    color: whitesmoke;
+                    
+                    padding: 0;
+                    margin-top: 6rem;
+                }
+            }
+          
+
+
+            @media screen and (max-width: 640px) {
+                html, 
+                body {
+                    font-size: xx-small;
+                }
+                .text {
+                  font-size: xx-small;
+                }
+
+                .heading {
+                    height: 60%;
+                }
+                #quiz-title-heading {
+                    font-size: xx-small;
+                }
+                #quiz-title{
+                    color: whitesmoke;
+                    
+                    padding: 0;
+                    margin-top: 5rem;
+                }
 
                 #readiness{
                     color: whitesmoke;
                     font-size: small;
-                    height: 7rem;
+                    display: block;
+                    /* height: 6rem; */
 
                 }
+                #readiness-text {
+                    font-weight: normal;
+                    font-size: x-small;
+    
+                }
+
+               
 
               }
+            
 
-
-            @media screen and (max-width: 425px) {
+              @media screen and (max-width: 375px) {
                 html, 
                 body {
                     font-size: xx-small;
@@ -246,18 +279,22 @@
                     color: whitesmoke;
                     
                     padding: 0;
-                    margin-top: 5rem;
+                    margin-top: 1rem;
                 }
 
                 #readiness{
                     color: whitesmoke;
                     font-size: small;
-                    height: 6rem;
+                    display: block;
+                    /* height: 6rem; */
 
+                }
+                #readiness-text {
+                    font-weight: normal;
+                    font-size: x-small;
+    
                 }
 
               }
-            
-
 
     
