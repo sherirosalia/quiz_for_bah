@@ -183,6 +183,10 @@
                 font-size: medium;
 
             }
+
+            #ready-link>a {
+                color: greenyellow;
+            }
     
             .fixed {
                 position: fixed;
