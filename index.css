@@ -167,7 +167,7 @@
                 ;
                 /* padding-top: 2rem; */
                 color: whitesmoke;
-                height: 12rem;
+                height: 20rem;
                 display: grid;
                 padding: .5em;
                 margin: 1em 0em 0em;
@@ -204,7 +204,9 @@
 
 
             @media screen and (max-width: 960px) {
-
+                #readiness{
+                    height: 20rem;
+                }
                 #quiz-title{
                     color: whitesmoke;
                     
@@ -247,6 +249,7 @@
                 }
 
                 #readiness{
+                    height: 20rem;
                     color: whitesmoke;
                     font-size: small;
                     display: block;
@@ -288,6 +291,7 @@
 
                 #readiness{
                     color: whitesmoke;
+                    height: 20rem;
                     font-size: small;
                     display: block;
                     /* height: 6rem; */
