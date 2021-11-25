@@ -108,7 +108,7 @@ function calcscore(){
      
       $('#readiness-text').text('\"Congratulations! You are thinking about the information your business has collected and how to organize it. To organize your data, if it is currently in individual files and spread across your computer or your organization, you will want to compile it all so you can begin assessing it.  Looking at your data, some initial questions to ask will indicate its usability, what we call “clean data”. \"');
      
-      $('#ready-link').html('<a href="< https://beyondahunch.com/why-is-clean-and-organized-data-important/" >how to organize it!</a>');
+      $('#ready-link').html('<a href="https://beyondahunch.com/why-is-clean-and-organized-data-important" target="blank" >how to organize it!</a>');
 
       // alert('you\'re poised to make a lot of money')
 
