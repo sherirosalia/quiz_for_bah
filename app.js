@@ -101,6 +101,7 @@ function calcscore(){
 
       $('#readiness-text').text('\"Well done!  The data experience you have gained so far has powered your success and given you a knowledge base with which to build.  Next steps could include architecting a data pipeline, adding improved visualizations, implementing a data management system, or automating repetitive, error-prone activities.  Here’s more on what automation can do for your business.  \"');
       // alert('check out article on selling your data')
+      // leave last "/" off 
       $('#ready-link').html('<a href="https://beyondahunch.com/let-a-bot-do-it" target="blank">Let a Bot Do It!</a>');
 
     }
