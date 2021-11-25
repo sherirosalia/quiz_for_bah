@@ -88,20 +88,20 @@ function calcscore(){
 
   
 
-  if(count ===6){
+  if(count === 6){
     console.log(score)
     $('#readiness').show();
 
     if(score > 15){
       // alert('you are ready Freddy!')
       $('#readiness-text').text('\" Congratulations, you are data ready!  New opportunities are uncovered by analyzing data to secure your market position and take it to the next level. Some ideas for next steps are to have visualizations to tell the story of your company’s past performance, forecast the future based on the past, automate mundane tasks, or connect supplemental data to get enriched insights for better decision making.  \"');
-      $('#ready-link').html('<a href="< https://beyondahunch.com/let-a-bot-do-it/" >monetization of data momentum!</a>');
+      $('#ready-link').html('<a href="https://beyondahunch.com/on-pretty-ladies-and-bubble-charts" target ="blank" >Check out this article on the benefit of beautiful visualizations</a>');
     }
     else if(score > 11){
 
       $('#readiness-text').text('\"Well done!  The data experience you have gained so far has powered your success and given you a knowledge base with which to build.  Next steps could include architecting a data pipeline, adding improved visualizations, implementing a data management system, or automating repetitive, error-prone activities.  Here’s more on what automation can do for your business.  \"');
       // alert('check out article on selling your data')
-      $('#ready-link').html('<a href="< https://beyondahunch.com/let-a-bot-do-it/" >Let a Bot Do It!</a>');
+      $('#ready-link').html('<a href="https://beyondahunch.com/let-a-bot-do-it" target="blank">Let a Bot Do It!</a>');
 
     }
     else {
