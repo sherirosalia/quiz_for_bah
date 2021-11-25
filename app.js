@@ -95,7 +95,7 @@ function calcscore(){
     if(score > 15){
       // alert('you are ready Freddy!')
       $('#readiness-text').text('\" Congratulations, you are data ready!  New opportunities are uncovered by analyzing data to secure your market position and take it to the next level. Some ideas for next steps are to have visualizations to tell the story of your company’s past performance, forecast the future based on the past, automate mundane tasks, or connect supplemental data to get enriched insights for better decision making.  \"');
-      $('#ready-link').html('<a href="https://beyondahunch.com/on-pretty-ladies-and-bubble-charts" target ="blank" >Check out this article on the benefit of beautiful visualizations</a>');
+      $('#ready-link').html('<a href="https://beyondahunch.com/on-pretty-ladies-and-bubble-charts" target ="blank" >Check out this article on the benefit of beautiful data visualizations</a>');
     }
     else if(score > 11){
 
